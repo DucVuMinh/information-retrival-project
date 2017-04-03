@@ -103,6 +103,8 @@ public class ParseJson {
     
     /**
      * Default method search, recommend for using
+     * After creating json for searching, giving it to a restful api:
+     * http://localhost:9200/yahoo/news/_search?search_type=dfs_query_then_fetch
      * @param input search input string
      * @param pageNumber number page
      * @return a string
@@ -115,7 +117,8 @@ public class ParseJson {
     }
     public static void main( String []args){
         try {
-            System.out.println( createBestFieldsSearchQueryJson("President Trump using an unsecured Android" , 30, 1 , 0, 5, (float) 2) );
+            String s = defaultSearch("President Trump using an unsecured Android", 0);
+            System.out.println(s);
         } catch (Exception ex) {
             Logger.getLogger(ParseJson.class.getName()).log(Level.SEVERE, null, ex);
         }
