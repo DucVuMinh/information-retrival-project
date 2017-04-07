@@ -1,0 +1,29 @@
+[2017-04-03T15:36:11,086][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-04-03T15:36:11,418][INFO ][o.e.e.NodeEnvironment    ] [-f2T_Zf] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [19.6gb], net total_space [52.3gb], spins? [possibly], types [ext4]
+[2017-04-03T15:36:11,419][INFO ][o.e.e.NodeEnvironment    ] [-f2T_Zf] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-04-03T15:36:11,874][INFO ][o.e.n.Node               ] node name [-f2T_Zf] derived from node ID [-f2T_ZfAQKSm8iOo5kl_jQ]; set [node.name] to override
+[2017-04-03T15:36:11,927][INFO ][o.e.n.Node               ] version[5.2.2], pid[5035], build[f9d9b74/2017-02-24T17:26:45.835Z], OS[Linux/4.4.0-71-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-04-03T15:36:14,033][INFO ][o.e.p.PluginsService     ] [-f2T_Zf] loaded module [aggs-matrix-stats]
+[2017-04-03T15:36:14,034][INFO ][o.e.p.PluginsService     ] [-f2T_Zf] loaded module [ingest-common]
+[2017-04-03T15:36:14,034][INFO ][o.e.p.PluginsService     ] [-f2T_Zf] loaded module [lang-expression]
+[2017-04-03T15:36:14,034][INFO ][o.e.p.PluginsService     ] [-f2T_Zf] loaded module [lang-groovy]
+[2017-04-03T15:36:14,034][INFO ][o.e.p.PluginsService     ] [-f2T_Zf] loaded module [lang-mustache]
+[2017-04-03T15:36:14,034][INFO ][o.e.p.PluginsService     ] [-f2T_Zf] loaded module [lang-painless]
+[2017-04-03T15:36:14,035][INFO ][o.e.p.PluginsService     ] [-f2T_Zf] loaded module [percolator]
+[2017-04-03T15:36:14,035][INFO ][o.e.p.PluginsService     ] [-f2T_Zf] loaded module [reindex]
+[2017-04-03T15:36:14,035][INFO ][o.e.p.PluginsService     ] [-f2T_Zf] loaded module [transport-netty3]
+[2017-04-03T15:36:14,035][INFO ][o.e.p.PluginsService     ] [-f2T_Zf] loaded module [transport-netty4]
+[2017-04-03T15:36:14,036][INFO ][o.e.p.PluginsService     ] [-f2T_Zf] no plugins loaded
+[2017-04-03T15:36:17,482][INFO ][o.e.n.Node               ] initialized
+[2017-04-03T15:36:17,483][INFO ][o.e.n.Node               ] [-f2T_Zf] starting ...
+[2017-04-03T15:36:17,888][INFO ][o.e.t.TransportService   ] [-f2T_Zf] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-04-03T15:36:17,894][WARN ][o.e.b.BootstrapChecks    ] [-f2T_Zf] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-04-03T15:36:20,953][INFO ][o.e.c.s.ClusterService   ] [-f2T_Zf] new_master {-f2T_Zf}{-f2T_ZfAQKSm8iOo5kl_jQ}{oWIRNSMjQmqmcknESUVNZg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-04-03T15:36:21,026][INFO ][o.e.h.HttpServer         ] [-f2T_Zf] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-04-03T15:36:21,026][INFO ][o.e.n.Node               ] [-f2T_Zf] started
+[2017-04-03T15:36:21,885][INFO ][o.e.g.GatewayService     ] [-f2T_Zf] recovered [8] indices into cluster_state
+[2017-04-03T15:36:24,804][INFO ][o.e.c.r.a.AllocationService] [-f2T_Zf] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2017-04-03T15:46:02,491][INFO ][o.e.n.Node               ] [-f2T_Zf] stopping ...
+[2017-04-03T15:46:02,807][INFO ][o.e.n.Node               ] [-f2T_Zf] stopped
+[2017-04-03T15:46:02,808][INFO ][o.e.n.Node               ] [-f2T_Zf] closing ...
+[2017-04-03T15:46:02,836][INFO ][o.e.n.Node               ] [-f2T_Zf] closed
