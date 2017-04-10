@@ -1,20 +1,1946 @@
-[2017-04-07 09:27:55,090][INFO ][node                     ] [Sybil Dvorak] version[2.4.0], pid[4183], build[ce9f0c7/2016-08-29T09:14:17Z]
-[2017-04-07 09:27:55,091][INFO ][node                     ] [Sybil Dvorak] initializing ...
-[2017-04-07 09:27:56,052][INFO ][plugins                  ] [Sybil Dvorak] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
-[2017-04-07 09:27:56,125][INFO ][env                      ] [Sybil Dvorak] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [18.7gb], net total_space [52.3gb], spins? [possibly], types [ext4]
-[2017-04-07 09:27:56,125][INFO ][env                      ] [Sybil Dvorak] heap size [990.7mb], compressed ordinary object pointers [true]
-[2017-04-07 09:27:58,565][INFO ][node                     ] [Sybil Dvorak] initialized
-[2017-04-07 09:27:58,565][INFO ][node                     ] [Sybil Dvorak] starting ...
-[2017-04-07 09:27:58,675][INFO ][transport                ] [Sybil Dvorak] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2017-04-07 09:27:58,683][INFO ][discovery                ] [Sybil Dvorak] elasticsearch/st0YpZQhSZuH1LVlQEG-TA
-[2017-04-07 09:28:01,721][INFO ][cluster.service          ] [Sybil Dvorak] new_master {Sybil Dvorak}{st0YpZQhSZuH1LVlQEG-TA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
-[2017-04-07 09:28:01,730][INFO ][http                     ] [Sybil Dvorak] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2017-04-07 09:28:01,730][INFO ][node                     ] [Sybil Dvorak] started
-[2017-04-07 09:28:01,817][INFO ][gateway                  ] [Sybil Dvorak] recovered [1] indices into cluster_state
-[2017-04-07 09:28:02,302][INFO ][cluster.routing.allocation] [Sybil Dvorak] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[my_index][2]] ...]).
-[2017-04-07 10:59:45,057][INFO ][cluster.metadata         ] [Sybil Dvorak] [yahoo] creating index, cause [api], templates [], shards [5]/[1], mappings [news]
-[2017-04-07 10:59:45,287][INFO ][cluster.routing.allocation] [Sybil Dvorak] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[yahoo][4]] ...]).
-[2017-04-07 11:11:42,255][INFO ][node                     ] [Sybil Dvorak] stopping ...
-[2017-04-07 11:11:42,511][INFO ][node                     ] [Sybil Dvorak] stopped
-[2017-04-07 11:11:42,512][INFO ][node                     ] [Sybil Dvorak] closing ...
-[2017-04-07 11:11:42,530][INFO ][node                     ] [Sybil Dvorak] closed
+[2017-04-10 20:06:36,102][INFO ][node                     ] [Sybil Dvorak] version[2.4.0], pid[4567], build[ce9f0c7/2016-08-29T09:14:17Z]
+[2017-04-10 20:06:36,103][INFO ][node                     ] [Sybil Dvorak] initializing ...
+[2017-04-10 20:06:37,006][INFO ][plugins                  ] [Sybil Dvorak] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2017-04-10 20:06:37,072][INFO ][env                      ] [Sybil Dvorak] using [1] data paths, mounts [[/ (/dev/sda4)]], net usable_space [18.7gb], net total_space [52.3gb], spins? [possibly], types [ext4]
+[2017-04-10 20:06:37,072][INFO ][env                      ] [Sybil Dvorak] heap size [990.7mb], compressed ordinary object pointers [true]
+[2017-04-10 20:06:39,500][INFO ][node                     ] [Sybil Dvorak] initialized
+[2017-04-10 20:06:39,501][INFO ][node                     ] [Sybil Dvorak] starting ...
+[2017-04-10 20:06:39,610][INFO ][transport                ] [Sybil Dvorak] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-04-10 20:06:39,619][INFO ][discovery                ] [Sybil Dvorak] elasticsearch/nayfY4oHTgeNlRU1mLrhGw
+[2017-04-10 20:06:42,656][INFO ][cluster.service          ] [Sybil Dvorak] new_master {Sybil Dvorak}{nayfY4oHTgeNlRU1mLrhGw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-04-10 20:06:42,677][INFO ][http                     ] [Sybil Dvorak] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-04-10 20:06:42,678][INFO ][node                     ] [Sybil Dvorak] started
+[2017-04-10 20:06:42,801][INFO ][gateway                  ] [Sybil Dvorak] recovered [2] indices into cluster_state
+[2017-04-10 20:06:44,324][INFO ][cluster.routing.allocation] [Sybil Dvorak] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[my_index][3], [my_index][3]] ...]).
+[2017-04-10 20:17:40,075][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][1], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=aL0ZZlhYSjuZxusIOuCAvA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1d27765d] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [should]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:17:40,076][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][4], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=VrYKsdStT2-_O2_1GV5slQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1d27765d] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [should]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:17:40,076][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][2], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=6gpnZB3hSEGGYEKYF6barw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1d27765d] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [should]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:17:40,076][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][0], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=bcIMsPQTSUiARQkiIKBmuA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1d27765d]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [should]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:17:40,075][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][3], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=5ZgGJxfxQLyoh3VAxRS-ew]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1d27765d] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [should]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:17:40,096][DEBUG][action.search            ] [Sybil Dvorak] All shards failed for phase: [dfs]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [should]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [should]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:21:41,569][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][2], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=6gpnZB3hSEGGYEKYF6barw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2b8568da] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses]
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:21:41,570][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][1], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=aL0ZZlhYSjuZxusIOuCAvA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2b8568da] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses]
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:21:41,569][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][3], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=5ZgGJxfxQLyoh3VAxRS-ew]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2b8568da] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses]
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:21:41,569][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][0], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=bcIMsPQTSUiARQkiIKBmuA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2b8568da] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses]
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:21:41,573][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][4], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=VrYKsdStT2-_O2_1GV5slQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2b8568da]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses]
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:21:41,576][DEBUG][action.search            ] [Sybil Dvorak] All shards failed for phase: [dfs]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+    	"should" :{
+	        "match_phrase" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        },
+	        "content" : {
+	            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+	        }
+    	}
+    	}
+    }
+}]]; nested: QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[expected [END_OBJECT] but got [FIELD_NAME], possibly too many query clauses]
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:23:35,155][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][0], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=bcIMsPQTSUiARQkiIKBmuA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7a45f654] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [content]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:120)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:23:35,157][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][2], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=6gpnZB3hSEGGYEKYF6barw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7a45f654]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [content]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:120)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:23:35,159][DEBUG][action.search            ] [Sybil Dvorak] All shards failed for phase: [dfs]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [content]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:120)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:23:35,157][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][1], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=aL0ZZlhYSjuZxusIOuCAvA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7a45f654] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [content]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:120)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:23:35,156][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][3], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=5ZgGJxfxQLyoh3VAxRS-ew]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7a45f654] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [content]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:120)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:23:35,157][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][4], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=VrYKsdStT2-_O2_1GV5slQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7a45f654] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+Caused by: SearchParseException[failed to parse search source [{
+    "query": {
+    	"bool" : {
+	    	"should" :[
+		        {"match_phrase" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } },
+		        {"content" : {
+		            "description" : "Uber CEO Travis Kalanick has quit President Donald Trump’s economic"
+		        } }
+	    	]
+    	}
+    }
+}]]; nested: QueryParsingException[No query registered for [content]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: [yahoo] QueryParsingException[No query registered for [content]]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:248)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:120)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:250)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:320)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:223)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:218)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:38:35,750][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][2], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=6gpnZB3hSEGGYEKYF6barw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@49349334] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+Caused by: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: suggester[term] doesn't support [title]
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parseTokenValue(TermSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parse(TermSuggestParser.java:52)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:38:35,750][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][0], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=bcIMsPQTSUiARQkiIKBmuA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@49349334]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+Caused by: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: suggester[term] doesn't support [title]
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parseTokenValue(TermSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parse(TermSuggestParser.java:52)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:38:35,752][DEBUG][action.search            ] [Sybil Dvorak] All shards failed for phase: [dfs]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+Caused by: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: suggester[term] doesn't support [title]
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parseTokenValue(TermSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parse(TermSuggestParser.java:52)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:38:35,750][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][4], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=VrYKsdStT2-_O2_1GV5slQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@49349334] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+Caused by: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: suggester[term] doesn't support [title]
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parseTokenValue(TermSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parse(TermSuggestParser.java:52)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:38:35,750][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][3], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=5ZgGJxfxQLyoh3VAxRS-ew]: Failed to execute [org.elasticsearch.action.search.SearchRequest@49349334] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+Caused by: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: suggester[term] doesn't support [title]
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parseTokenValue(TermSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parse(TermSuggestParser.java:52)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 20:38:35,750][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][1], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=aL0ZZlhYSjuZxusIOuCAvA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@49349334] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+Caused by: SearchParseException[failed to parse search source [{
+  "query" : {
+    "match": {
+      "title": "tring out Elasticsearch"
+    }
+  },
+  "suggest" : {
+    "my-suggestion" : {
+      "text" : "trying out Elasticsearch",
+      "term" : {
+        "title" : "message"
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[suggester[term] doesn't support [title]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: suggester[term] doesn't support [title]
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parseTokenValue(TermSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.term.TermSuggestParser.parse(TermSuggestParser.java:52)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 21:38:59,477][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][0], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=bcIMsPQTSUiARQkiIKBmuA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6da54492] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: No mapping found for field [body]
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parseCandidateGenerator(PhraseSuggestParser.java:333)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:110)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 21:38:59,478][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][1], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=aL0ZZlhYSjuZxusIOuCAvA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6da54492]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: No mapping found for field [body]
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parseCandidateGenerator(PhraseSuggestParser.java:333)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:110)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 21:38:59,477][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][2], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=6gpnZB3hSEGGYEKYF6barw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6da54492] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: No mapping found for field [body]
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parseCandidateGenerator(PhraseSuggestParser.java:333)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:110)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 21:38:59,477][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][4], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=VrYKsdStT2-_O2_1GV5slQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6da54492] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: No mapping found for field [body]
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parseCandidateGenerator(PhraseSuggestParser.java:333)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:110)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 21:38:59,477][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][3], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=5ZgGJxfxQLyoh3VAxRS-ew]: Failed to execute [org.elasticsearch.action.search.SearchRequest@6da54492] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: No mapping found for field [body]
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parseCandidateGenerator(PhraseSuggestParser.java:333)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:110)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 21:38:59,479][DEBUG][action.search            ] [Sybil Dvorak] All shards failed for phase: [query]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest" : {
+    "text" : "The Glass Room shows",
+    "simple_phrase" : {
+      "phrase" : {
+        "analyzer" : "english",
+        "field" : "title",
+        "size" : 1,
+        "real_word_error_likelihood" : 0.95,
+        "max_errors" : 0.5,
+        "gram_size" : 2,
+        "direct_generator" : [ {
+          "field" : "body",
+          "suggest_mode" : "always",
+          "min_word_length" : 1
+        } ],
+        "highlight": {
+          "pre_tag": "<em>",
+          "post_tag": "</em>"
+        }
+      }
+    }
+  }
+}]]; nested: IllegalArgumentException[No mapping found for field [body]];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: No mapping found for field [body]
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parseCandidateGenerator(PhraseSuggestParser.java:333)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:110)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 22:14:05,399][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][1], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=aL0ZZlhYSjuZxusIOuCAvA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@55607e5c] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Analyzer [Emotions relate to how you use your computer mouse] doesn't exists
+	at org.elasticsearch.search.suggest.SuggestUtils.parseSuggestContext(SuggestUtils.java:244)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 22:14:05,399][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][0], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=bcIMsPQTSUiARQkiIKBmuA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@55607e5c] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Analyzer [Emotions relate to how you use your computer mouse] doesn't exists
+	at org.elasticsearch.search.suggest.SuggestUtils.parseSuggestContext(SuggestUtils.java:244)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 22:14:05,399][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][2], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=6gpnZB3hSEGGYEKYF6barw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@55607e5c]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Analyzer [Emotions relate to how you use your computer mouse] doesn't exists
+	at org.elasticsearch.search.suggest.SuggestUtils.parseSuggestContext(SuggestUtils.java:244)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 22:14:05,399][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][4], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=VrYKsdStT2-_O2_1GV5slQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@55607e5c] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Analyzer [Emotions relate to how you use your computer mouse] doesn't exists
+	at org.elasticsearch.search.suggest.SuggestUtils.parseSuggestContext(SuggestUtils.java:244)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 22:14:05,399][DEBUG][action.search            ] [Sybil Dvorak] [yahoo][3], node[nayfY4oHTgeNlRU1mLrhGw], [P], v[4], s[STARTED], a[id=5ZgGJxfxQLyoh3VAxRS-ew]: Failed to execute [org.elasticsearch.action.search.SearchRequest@55607e5c] lastShard [true]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Analyzer [Emotions relate to how you use your computer mouse] doesn't exists
+	at org.elasticsearch.search.suggest.SuggestUtils.parseSuggestContext(SuggestUtils.java:244)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2017-04-10 22:14:05,451][DEBUG][action.search            ] [Sybil Dvorak] All shards failed for phase: [query]
+RemoteTransportException[[Sybil Dvorak][127.0.0.1:9300][indices:data/read/search[phase/query]]]; nested: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+Caused by: SearchParseException[failed to parse search source [{
+	"suggest": {
+		
+		"text": "Google Premieres Android Auto",
+		"simple_phrase": {
+			"phrase": {
+				"gram_size": 10,
+				"real_word_error_likelihood": 0.95,
+				"max_errors": 0.5,
+				"field": "title",
+				"size": 3,
+				"analyzer": "Emotions relate to how you use your computer mouse"
+			}
+		}
+	}
+}]]; nested: IllegalArgumentException[Analyzer [Emotions relate to how you use your computer mouse] doesn't exists];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:377)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:368)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:365)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Analyzer [Emotions relate to how you use your computer mouse] doesn't exists
+	at org.elasticsearch.search.suggest.SuggestUtils.parseSuggestContext(SuggestUtils.java:244)
+	at org.elasticsearch.search.suggest.phrase.PhraseSuggestParser.parse(PhraseSuggestParser.java:64)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parseInternal(SuggestParseElement.java:94)
+	at org.elasticsearch.search.suggest.SuggestParseElement.parse(SuggestParseElement.java:49)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
